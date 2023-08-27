@@ -1,0 +1,185 @@
+\documentclass[a4paper]{article}
+
+\usepackage[default]{lato}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage[english]{babel} % for language
+\usepackage[top=1cm, left=1cm, right=1cm, bottom=1cm]{geometry} % for border paper
+\usepackage{hyperref} % for link href
+\usepackage{graphicx}% for pictures
+\usepackage{subcaption} % for many pictures in a figure 
+\usepackage{multicol}
+\usepackage{fontawesome5} % for icons
+\usepackage[dvipsnames]{xcolor}  % for colour
+\usepackage{comfortaa}
+
+\setlength{\parindent}{0pt} %Remove space in the beginning of each paragraph
+%\usepackage{parskip}  %for more  option concerning paragraph
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+\Huge \color{MidnightBlue} \comfortaa \textbf{Engineer in Computer Science}
+\medskip
+\end{center}
+
+\begin{tabular}{ccc}
+\large
+\parbox[]{0.38\linewidth}{
+\textbf{\comfortaa \color{MidnightBlue} \Large Yann Cauchepin} \\[0.2cm]
+Born the 1997-30-06,\\
+25 years old\\
+Nationality : French \& Swiss\\} 
+&
+\parbox[]{0.19\linewidth}{
+\includegraphics[trim= 30 85 120 20, clip, scale=0.22]{Rando1.jpg}}
+&
+\parbox[]{0.43\linewidth}{
+\faHouseUser \hspace{0.1cm} 11A Chemin du loup,\\ \smallskip
+\hspace*{0.6cm} 74160 Saint-Julien-en-Genevois\\
+\smallskip
+\faPhone \hspace{0.2cm}   06 11 63 87 64\\
+\smallskip
+\faEnvelope[regular] \hspace{0.1cm}  cauchepin.yann@gmail.com\\
+\smallskip
+\faCar* \hspace{0.1cm} Driving license, Car\\}
+\end{tabular}
+
+\fontseries{l}\selectfont
+
+
+\mbox{\Large \comfortaa \textbf{ \faGraduationCap \hspace{0.2cm} Education}}\\
+\rule{0.8\linewidth}{0.01mm}\\[0.2cm]
+\begin{tabular}{ccc}
+\parbox[]{0.11\linewidth}{2018 - 2021\\} 
+&
+\parbox[]{0.59\linewidth}{\large \textbf{Engineer's degree in Statistics and Computer Science}\\}
+&
+\parbox[]{0.3\linewidth}{Engineering school Polytech,\\ \textit{Lille, France}\\}
+
+\\
+
+\parbox[]{0.11\linewidth}{2017 - 2018\\} 
+&
+\parbox[]{0.59\linewidth}{\large \textbf{Engineer's preparatory class}\\}
+&
+\parbox[]{0.3\linewidth}{Engineering school Polytech,\\ \textit{Grenoble, France}\\}
+
+\\
+
+\parbox[]{0.11\linewidth}{2015 - 2017\\} 
+&
+\parbox[]{0.59\linewidth}{\large \textbf{Common core year for health studies (PACES)}\\}
+&
+\parbox[]{0.3\linewidth}{University Joseph Fourrier,\\ \textit{Grenoble, France}\\}
+\end{tabular}
+
+\medskip
+
+\mbox{\Large \comfortaa \textbf{ \faHandshake \hspace{0.2cm} Projects \& Experience}}\\
+\rule{0.8\linewidth}{0.01mm}\\[0.2cm]
+\begin{tabular}{ccc}
+\parbox[]{0.11\linewidth}{08.2021 -\\ 03.2021\\} 
+&
+\parbox[]{0.59\linewidth}{\textbf{\large Reinforcement Learning for Combinatorial Optimization}\\
+Creating from scratch a realistic and adaptable environment with \\economic and sanitary evaluations for a multicriteria optimization.\\
+Static and dynamic digitalization of a society. Autonomous work.\\
+Python, SumoMobility, Openstreetmap.\\}
+&
+\parbox[]{0.3\linewidth}{University of Luxembourg,\\
+\textit{Esch-sur-Alzette, Luxembourg}\\}
+
+\\
+
+\parbox[]{0.11\linewidth}{02.2021 -\\ 10.2020\\} 
+&
+\parbox[]{0.59\linewidth}{\textbf{\large Deep Neural Network Optimization, Machine Learning}\\
+Forecasting of energy consumption in partnership with EDF R\&D.\\
+Simulated annealing, Genetic algorithm, Convolutional layers.\\
+Python, Keras, Tensorflow, Deap packages, GRID5000 network, MPI.\\}
+&
+\parbox[]{0.3\linewidth}{Engineering school Polytech,\\ \textit{Lille, France}\\}
+\end{tabular}
+
+\medskip
+
+\mbox{\Large \comfortaa \textbf{ \faToolbox \hspace{0.2cm} Knowledge \& Skills}}\\
+\rule{0.8\linewidth}{0.01mm}
+\begin{multicols}{2}
+\textbf{Artificial Intelligence, Machine Learning}\\
+Unsupervised, Supervised and Reinforcement learning,\\
+Convolution, Neural network.\\
+Scikit-learn, Keras, Tensorflow framework.\\[0.2cm]
+\textbf{Optimization}\\
+Modeling difficulties, Graphs and combinatorics,\\
+Advanced algorithms for optimization and decision,\\
+Metaheuristic, Lindo software.\\[0.2cm]
+\textbf{Programming, GUI, Systems}\\
+Data structure and Object-oriented programming.\\
+C++/C, Python, Java languages, Translators, Latex.\\
+wxWidgets, Unix system, Multithreading, Github.\\[0.2cm]
+\textbf{High-performance computing, Distributed processing}\\
+Parallelization, Using GPUs, MPI language.\\
+High performance matrix computation methods, PageRank.\\[0.2cm]
+\textbf{Software engineering}\\
+Patterns, Metamodeling, UML, Modelio software.\\[0.2cm]
+\textbf{Data Science, Statistics}\\
+Data preparation, Management of missing data,\\
+Time series analysis and forecasting, AR, MA, ARIMA,\\
+Markov process, Advanced modeling,\\
+Interpolations and curve fitting,\\
+Classification and clustering, ACP, ACM, AFC,\\
+Multiple, polynomial and regularized regression,\\
+Exploratory, inferential and descriptive statistics,\\
+R, RMarkdown languages, RStudio software.\\[0.2cm]
+\textbf{Big Data}\\
+Data fragmentation, Map-Reduce method.\\
+Spark language, Databricks interface.\\[0.2cm]
+\textbf{Database}\\
+Relational, SQL, XML, XQuery languages.\\[0.2cm]
+\textbf{Web}\\
+JavaScript, CSS, HTML, PHP languages.\\[0.2cm]
+\textbf{Other :} Network basis, Basic medical knowledge.
+\end{multicols}
+
+\medskip
+
+\begin{tabular}{cc}
+
+\parbox[]{0.5\linewidth}{
+\mbox{\Large \comfortaa \textbf{ \faLanguage \hspace{0.2cm} Languages}}\\
+\rule{0.6\linewidth}{0.01mm}\\[0.3cm]
+\begin{tabular}{cc}
+\parbox[]{0.2\linewidth}{\large \textbf{French}\medskip} 
+&
+\parbox[]{0.8\linewidth}{Native language\smallskip}
+\\
+\parbox[]{0.2\linewidth}{\large \textbf{English}\smallskip} 
+&
+\parbox[]{0.8\linewidth}{Degree B2/C1 \hspace{0.2cm} \textmd{TOEIC} score : 945\smallskip}
+\\
+\parbox[]{0.2\linewidth}{\large \textbf{German}}
+&
+\parbox[]{0.8\linewidth}{Beginner}
+\end{tabular}
+\\[0.4cm]
+}
+
+&
+
+\parbox[]{0.5\linewidth}{
+\mbox{\Large \comfortaa \textbf{\faTag \hspace{0.2cm} Hobbies}}\\
+\rule{0.6\linewidth}{0.01mm}\\[0.2cm]
+\parbox[]{\linewidth}{Nutrition, Fitness, Weightlifting,\\
+Personal development,\\
+Learning, Self-taught\\} 
+\\[0.4cm]
+}
+
+\end{tabular}
+
+\end{titlepage}
+
+\end{document}

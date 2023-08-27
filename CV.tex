@@ -1,0 +1,183 @@
+\documentclass[a4paper]{article}
+
+\usepackage[default]{lato}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage[french]{babel} % for language
+\usepackage[top=1cm, left=1cm, right=1cm, bottom=1cm]{geometry} % for border paper
+\usepackage{hyperref} % for link href
+\usepackage{graphicx}% for pictures
+\usepackage{subcaption} % for many pictures in a figure 
+\usepackage{multicol}
+\usepackage{fontawesome5} % for icons
+\usepackage[dvipsnames]{xcolor}  % for colour
+\usepackage{comfortaa}
+
+\setlength{\parindent}{0pt} %Remove space in the beginning of each paragraph
+%\usepackage{parskip}  %for more  option concerning paragraph
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+\Huge \color{MidnightBlue} \comfortaa \textbf{Ing\'{e}nieur en informatique et statistiques}
+\medskip
+\end{center}
+
+\begin{tabular}{ccc}
+\large
+\parbox[]{0.38\linewidth}{
+\textbf{\comfortaa \color{MidnightBlue} \Large Yann Cauchepin} \\[0.2cm]
+N\'{e} le 1997-30-06,\\
+25 ans\\
+Nationalit\'{e}: Fran\c{c}ais \& Suisse\\} 
+&
+\parbox[]{0.19\linewidth}{
+\includegraphics[trim= 30 70 120 20, clip, scale=0.25]{Rando1.jpg}}
+&
+\parbox[]{0.43\linewidth}{
+\faHouseUser \hspace{0.1cm} 11A Chemin du loup,\\ \smallskip
+\hspace*{0.6cm} 74160 Saint-Julien-en-Genevois\\
+\smallskip
+\faPhone \hspace{0.2cm}   06 11 63 87 64\\
+\smallskip
+\faEnvelope[regular] \hspace{0.1cm}  cauchepin.yann@gmail.com\\
+\smallskip
+\faGithub \hspace{0.2cm} https://github.com/yanncauchepin\\
+\faCar* \hspace{0.1cm} Permis B, Voiture\\}
+\end{tabular}
+
+\fontseries{l}\selectfont
+
+\mbox{\Large \comfortaa \textbf{ \faHandshake \hspace{0.2cm} Projets \& Exp\'{e}rience}}\\
+\rule{0.8\linewidth}{0.01mm}\\[0.2cm]
+\begin{tabular}{ccc}
+\parbox[]{0.08\linewidth}{08.2021 -\\ 03.2021\\} 
+&
+\parbox[]{0.62\linewidth}{\textbf{\large Apprentissage par renforcement - Optimisation combinatoire}\\
+Cr\'{e}ation d'un environnement r\'{e}aliste et adaptable avec des \'{e}valuations \'{e}conomiques et sanitaires pour une optimisation multicrit\`{e}re.\\
+Digitalization statique et dynamique d'une soci\'{e}t\'{e}. Travail en autonomie.\\
+Python, SumoMobility, Openstreetmap.\\}
+&
+\parbox[]{0.3\linewidth}{Universit\'{e} du Luxembourg,\\
+\textit{Esch-sur-Alzette, Luxembourg}\\}
+
+\\
+
+\parbox[]{0.08\linewidth}{02.2021 -\\ 10.2020\\} 
+&
+\parbox[]{0.62\linewidth}{\textbf{\large 
+Optimisation d'un r\'{e}seau de neurones profond}\\
+Pr\'{e}diction de l'\'{e}nergie de consommation en partenariat avec EDF R\&D.\\
+Recuit simul\'{e}, Algorithme g\'{e}n\'{e}tique, Convolutions.\\
+Python, Keras, Tensorflow, package Deap, r\'{e}seau GRID5000, MPI.\\}
+&
+\parbox[]{0.3\linewidth}{\'{E}cole d'ing\'{e}nieur Polytech,\\ \textit{Lille, France}\\}
+\end{tabular}
+
+\medskip
+
+\mbox{\Large \comfortaa \textbf{ \faToolbox \hspace{0.2cm} Connaissances \& Comp\'{e}tences}}\\
+\rule{0.8\linewidth}{0.01mm}
+\begin{multicols}{2}
+\textbf{Intelligence Artificielle, Apprentissage automatique}\\
+Apprentissage supervis\'{e}, non supervis\'{e}, par renforcement,\\
+Convolutions, R\'{e}seau de neurones,\\
+Scikit-learn, Keras, Tensorflow.\\[0.2cm]
+\textbf{Optimisation}\\
+Mod\'{e}lisation de difficult\'{e}s, Graphs et combinatoires,\\
+Algorithmes avanc\'{e}es pour l'optimisation et la d\'{e}cision,\\
+M\'{e}taheuristiques, logiciel Lindo.\\[0.2cm]
+\textbf{Programmation, Interface graphique, Syst\`{e}mes}\\
+Structure de donn\'{e}es et Progammation orient\'{e}e object,\\
+Langages C++/C, Python, Java, Traducteurs, Latex,\\
+wxWidgets, syst\`{e}me Unix, Multithreading, Github.\\[0.2cm]
+\textbf{Calcul haute performance, Traitement distribu\'{e}}\\
+Parall\'{e}lisation, Utilisation de GPU, langage MPI,\\
+Calcul matricielle haute performance, algorithme PageRank.\\[0.2cm]
+\textbf{Ing\'{e}nieurie logiciel}\\
+Mod\`{e}les de conception, M\'{e}tamod\'{e}lisation, JEE, MVC,\\
+UML, logiciel Modelio.\\[0.2cm]
+\textbf{Science des donn\'{e}es, Statistiques}\\
+Pr\'{e}paration des donn\'{e}es, Gestion des donn\'{e}es manquantes,\\
+Analyse et pr\'{e}dictions de s\'{e}ries temporelles, AR, MA, ARIMA,\\
+Processus de Markov, Mod\'{e}lisation avanc\'{e}e,\\
+Interpolations et Ajustement de courbes,\\
+Classification et Regroupement, ACP, ACM, AFC,\\
+R\'{e}gression multiple, polynomiale et r\'{e}gularis\'{e}e,\\
+Statistiques exploratoires, inf\'{e}rentielles et descriptives,\\
+Langage R, RMarkdown, logiciel RStudio.\\[0.2cm]
+\textbf{Donn\'{e}es volumineuses}\\
+Fragmentation de donn\'{e}es, m\'{e}thode Map-Reduce.\\
+Langage Spark, interface Databricks.\\[0.2cm]
+\textbf{Base de donn\'{e}es}\\
+Relationnelle, langages SQL, XML, XQuery.\\[0.2cm]
+\textbf{Web}\\
+Langages JavaScript, CSS, HTML, PHP.\\
+Logiques et web s\'{e}mantique, RFD, ontologie OWL.\\[0.2cm]
+\textbf{Other :} Notions de r\'{e}seau, Connaissances m\'{e}dicales de base.
+\end{multicols}
+
+\medskip
+
+\mbox{\Large \comfortaa \textbf{ \faGraduationCap \hspace{0.2cm} Formation}}\\
+\rule{0.8\linewidth}{0.01mm}\\[0.2cm]
+\begin{tabular}{ccc}
+\parbox[]{0.11\linewidth}{2018 - 2021\\} 
+&
+\parbox[]{0.59\linewidth}{\large \textbf{Dipl\^{o}me d'ing\'{e}nieur en informatique et statistiques\\}}
+&
+\parbox[]{0.3\linewidth}{\'{E}cole d'ing\'{e}nieur Polytech,\\ \textit{Lille, France}\\}
+
+\\
+
+\parbox[]{0.11\linewidth}{2017 - 2018\\} 
+&
+\parbox[]{0.59\linewidth}{\large \textbf{Classes pr\'{e}paratoires}\\}
+&
+\parbox[]{0.3\linewidth}{\'{E}cole d'ing\'{e}nieur Polytech,\\ \textit{Grenoble, France}\\}
+
+\\
+
+\parbox[]{0.11\linewidth}{2015 - 2017\\} 
+&
+\parbox[]{0.59\linewidth}{\large \textbf{Premi\`{e}re ann\'{e}e commune aux \'{e}tudes de sant\'{e}}\\}
+&
+\parbox[]{0.3\linewidth}{Universit\'{e} Joseph Fourrier,\\ \textit{Grenoble, France}\\}
+\end{tabular}
+
+\medskip
+
+\begin{tabular}{cc}
+
+\parbox[]{0.5\linewidth}{
+\mbox{\Large \comfortaa \textbf{ \faLanguage \hspace{0.2cm} Langages}}\\
+\rule{0.6\linewidth}{0.01mm}\\[0.3cm]
+\begin{tabular}{cc}
+\parbox[]{0.2\linewidth}{\large \textbf{Fran\c{c}ais}\medskip} 
+&
+\parbox[]{0.8\linewidth}{Langue maternelle\smallskip}
+\\
+\parbox[]{0.2\linewidth}{\large \textbf{Anglais}} 
+&
+\parbox[]{0.8\linewidth}{Niveau B2/C1 \hspace{0.2cm} \textmd{TOEIC} score : 945}
+\end{tabular}
+\\[0.4cm]
+}
+
+&
+
+\parbox[]{0.5\linewidth}{
+\mbox{\Large \comfortaa \textbf{\faTag \hspace{0.2cm} Loisirs}}\\
+\rule{0.6\linewidth}{0.01mm}\\[0.2cm]
+\parbox[]{\linewidth}{Nutrition, (Fitness, Musculation,)\\
+D\'{e}veloppement personnel,\\
+Apprendre, Autodidacte\\} 
+}
+
+\end{tabular}
+
+\end{titlepage}
+
+\end{document}
